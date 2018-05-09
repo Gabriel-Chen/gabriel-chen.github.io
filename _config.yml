@@ -1,0 +1,47 @@
+title: Gabriel Chen
+email: gabrielchen@berkeley.edu
+description: > # this means to ignore newlines until "baseurl:"
+    Shut Down The Hearts, And Open Your Eyes.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Gabriel Chen # add your name
+author-pic:
+about-author: I am an undergrad at UC Berkeley major in Computer Science and Mathematics. My study is focused on Theory / Algorithms, Data Analysis, and Machine Learning. I am also interested in surfing, archery, and abstract painting.
+
+# Contact links
+email: gabrielchen@berkeley.edu # Add your Email address
+phone: # Add your Phone number
+website: gabriel-chen.github.io # Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: gabriel-chen # Add your Github handle
+twitter: # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: gabrielchen0 # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: gabrielchen0 # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
