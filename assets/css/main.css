@@ -6,9 +6,10 @@
 }
 
 .highlighter-rouge {
-  color: #87314e;
+  color: #338ca9;
   font-weight: 400;
-  border: 1px solid #607D8B;
+  border: none;
+  background-color: #f7f7f7;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
@@ -821,9 +822,16 @@ pre {
 }
 
 pre code {
-  border: 0;
   padding-right: 0;
   padding-left: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin: 40px auto;
+    background: #dcdcdc;
+    width: 30%;
 }
 
 .flex-container {
