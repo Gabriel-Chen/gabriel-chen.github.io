@@ -379,7 +379,6 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-figcaption,
 figure,
 main {
   /* 1 */
@@ -544,6 +543,15 @@ img {
 	display: block;
 	border-radius: 1%;
 	border-style: none;
+}
+
+figcaption {
+	display: block;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	text-align: right;
+	font-size: 13px;
 }
 
 /**

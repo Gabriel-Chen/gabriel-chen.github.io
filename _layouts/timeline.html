@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css"> <!-- Resource style -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<div class="flex-container">
+  {% include header.html %}
+  <div class="content wrapper">
+    {{ content }}
+  {% include search.html %}
+  {% include pagination.html %}
+  </div> <!-- End Wrapper -->
+  {% include footer.html %}
+</div>

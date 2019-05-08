@@ -9,7 +9,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author settings
 author: Gabriel Chen # add your name
 author-pic:
-about-author: I am an undergrad at UC Berkeley major in Computer Science and Mathematics. My study is focused on Theory / Algorithms, Data Analysis, and Machine Learning. I am also interested in surfing, archery, and abstract painting.
+about-author: I am an undergrad at UC Berkeley major in Computer Science and Logic. My study is focusing on Theory / Algorithms, Computational Theory, and Computability / Decidability. I am also interested in surfing, archery, and abstract painting.
 
 # Contact links
 email: gabrielchen@berkeley.edu # Add your Email address
@@ -19,7 +19,7 @@ linkedin: gabrielchen0 # Add your Linkedin handle
 github: gabriel-chen # Add your Github handle
 twitter: # Add your Twitter handle
 facebook: # Add your Facebook handle
-instagram: gabrielchen0 # Add your Instagram handle
+instagram: #gabrielchen0 # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
 # Newsletter
