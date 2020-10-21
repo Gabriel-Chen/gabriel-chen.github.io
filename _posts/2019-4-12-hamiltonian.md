@@ -4,7 +4,7 @@ title: Hamiltonian
 date: 2019-4-12
 description: CS170 project.
 img: https://i.imgur.com/V3IqYhO.jpg
-tags: [Projects]
+tags: [Projects, Theory, Design]
 author: Gabriel Chen
 ---
 
