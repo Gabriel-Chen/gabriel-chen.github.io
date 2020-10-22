@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hamiltonian
-date: 2019-4-12
+date: 2019-6-12
 description: CS170 project.
 img: https://i.imgur.com/V3IqYhO.jpg
 tags: [Projects, Theory, Design]
