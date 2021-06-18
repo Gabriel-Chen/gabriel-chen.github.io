@@ -335,7 +335,7 @@
  *    IE on Windows Phone and in iOS.
  */
 html {
-  line-height: 1.15;
+  line-height: 2.5;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -347,8 +347,7 @@ html {
    ========================================================================== */
 /**
  * Remove the margin in all browsers (opinionated).
- */
-body {
+2.15body {
   margin: 0;
 }
 
@@ -818,8 +817,11 @@ a {
 
 blockquote {
   border-left: 3px solid #311e3e;
-  padding-left: 18px;
-  margin-left: 21px;
+  padding-left: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 2;
   font-style: italic;
   color: #311e3e;
 }
@@ -1226,6 +1228,17 @@ hr {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
+
+.post-content {
+	padding: 50px;
+	padding-top: 10px;
+}
+
+.post-content > p {
+	line-height: 2.5;
+	text-indent: 30px
+}
+
 
 .header-page {
   position: relative;
