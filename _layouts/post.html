@@ -34,6 +34,14 @@ layout: default
         </div>
         {% include author-box.html %}
         {% include recent-post.html %}
+	      
+	      <script src="https://utteranc.es/client.js"
+        repo="gabriel-chen/gabriel-chen.github.io"
+        issue-term="title"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+</script>
 		{% if site.discus_identifier %}
 			{% include disqus.html %}
 		{% endif %}
